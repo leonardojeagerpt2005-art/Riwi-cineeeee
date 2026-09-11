@@ -1,0 +1,28 @@
+/* src/styles/theme.css */
+:root {
+  /* Colors - Cinema Noir */
+  --color-primary: #3E82EE;
+  --color-secondary: #375082;
+  --color-tertiary: #2C3B4D;
+  --color-neutral: #5F626A;
+
+  /* Fonts */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Hanken Grotesk', sans-serif;
+  --font-label: 'JetBrains Mono', monospace;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: #0f1319; /* Fondo oscuro estilo Cinema Noir */
+  color: #f3f4f6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+code, kbd, pre, .label-text {
+  font-family: var(--font-label);
+}
